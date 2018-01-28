@@ -1,0 +1,53 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Nodejs\\node.exe',
+1 verbose cli   'D:\\Nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'layui-src' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData layui-src
+8 silly fetchNamedPackageData layui-src
+9 silly mapToRegistry name layui-src
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'layui-src',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'layui-src',
+12 silly mapToRegistry   name: 'layui-src',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/layui-src
+14 verbose request uri https://registry.npmjs.org/layui-src
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 16:47:17
+17 verbose request id 168eeeface72f9bf
+18 http request GET https://registry.npmjs.org/layui-src
+19 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.24.162:443
+20 info attempt registry request try #2 at 16:47:49
+21 http request GET https://registry.npmjs.org/layui-src
+22 verbose stack Error: kill ENOSYS
+22 verbose stack     at exports._errnoException (util.js:1026:11)
+22 verbose stack     at process.kill (internal/process.js:172:13)
+22 verbose stack     at process.listener (D:\Nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+22 verbose stack     at emitNone (events.js:91:20)
+22 verbose stack     at process.emit (events.js:185:7)
+22 verbose stack     at processEmit (D:\Nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+22 verbose stack     at processEmit (D:\Nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+22 verbose stack     at Signal.wrap.onsignal (internal/process.js:199:44)
+23 verbose cwd E:\$a目录树\layuitree\layui-master
+24 error Windows_NT 6.1.7601
+25 error argv "D:\\Nodejs\\node.exe" "D:\\Nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "layui-src"
+26 error node v6.9.1
+27 error npm  v3.10.8
+28 error code ENOSYS
+29 error errno ENOSYS
+30 error syscall kill
+31 error kill ENOSYS
+32 error If you need help, you may report this error at:
+32 error     <https://github.com/npm/npm/issues>
+33 verbose exit [ 1, true ]
